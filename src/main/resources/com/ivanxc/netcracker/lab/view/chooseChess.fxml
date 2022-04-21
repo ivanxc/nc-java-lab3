@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id = "globParent" prefHeight="100.0" prefWidth="220.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ivanxc.netcracker.lab.ChessChooseController">
+   <children>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="45.0" onMouseClicked="#chooseRook" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/black_rook.png" />
+         </image>
+      </ImageView>
+     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="60.0" layoutY="45.0" onMouseClicked="#chooseKnight" pickOnBounds="true" preserveRatio="true">
+       <image>
+         <Image url="@../images/black_knight.png" />
+       </image>
+     </ImageView>
+     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="110.0" layoutY="45.0" onMouseClicked="#chooseBishop" pickOnBounds="true" preserveRatio="true">
+       <image>
+         <Image url="@../images/black_bishop.png" />
+       </image>
+     </ImageView>
+     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="160.0" layoutY="45.0" onMouseClicked="#chooseQueen" pickOnBounds="true" preserveRatio="true">
+       <image>
+         <Image url="@../images/black_queen.png" />
+       </image>
+     </ImageView>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="192.0" text="Выберите фигуру:">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
